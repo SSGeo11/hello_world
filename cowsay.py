@@ -1,2 +1,2 @@
-from cowsay import cow
-cow("Moo")
+from cowsay import *
+tux("Moo")
