@@ -1,1 +1,2 @@
-print("Hello world")
+from cowsay import cow
+cow("Moo")
