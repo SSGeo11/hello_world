@@ -1,4 +1,1 @@
-Package Version
-------- -------
-cowsay  6.1
-pip     25.2
+cowsay==1.0
