@@ -1,0 +1,4 @@
+Package Version
+------- -------
+cowsay  6.1
+pip     25.2
