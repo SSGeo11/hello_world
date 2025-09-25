@@ -1,6 +1,6 @@
 def bin_search(nums, target):
-    l = -1
-    r = len(nums)
+    l = 0
+    r = len(nums)-1
     while(l<=r):
         m = (r+l)//2
         if nums[m] == target:
@@ -11,7 +11,7 @@ def bin_search(nums, target):
             r = m-1    
     return -1
 
-#nums = [5]
-#target = -5
-#print(bin_search(nums, target))
+nums = [-1, 0, 5]
+target = -1
+print(bin_search(nums, target))
     
